@@ -5,3 +5,5 @@ RUN apt-get update \
     && go get -u github.com/golang/dep/cmd/dep
 
 WORKDIR /go
+
+ENTRYPOINT ["sh", "dep.sh"]
