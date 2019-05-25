@@ -1,2 +1,3 @@
-# go-dep-image
-Go dependency management tool docker images
+# go-dep-cli-docker
+
+Go dependency management tool cli docker images
