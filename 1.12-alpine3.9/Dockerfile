@@ -5,4 +5,6 @@ RUN apk add --no-cache git \
 
 WORKDIR /go
 
+ADD ./dep.sh .
+
 ENTRYPOINT ["sh", "dep.sh"]
