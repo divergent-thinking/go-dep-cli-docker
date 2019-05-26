@@ -6,6 +6,6 @@ RUN apt-get update \
 
 WORKDIR /go
 
-ADD ./dep.sh .
+ADD dep.sh .
 
 ENTRYPOINT ["sh", "dep.sh"]
